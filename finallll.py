@@ -29,7 +29,7 @@ class Elevator:
         if down_sum == 0:
             return "up"
         elif up_sum == 0:
-            return "down"
+            return   "down"
         elif down_sum < up_sum:
             return "down"
         else:
