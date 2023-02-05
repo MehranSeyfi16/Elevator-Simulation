@@ -400,7 +400,7 @@ class GUI:
             GUI.third_elevator.array.append(int(message))
 
             if int(message) < GUI.third_elevator.head:
-                GUI.third_elevator.direction = "down"
+                GUI.third_elevator.direction =  "down"
             else:
                 GUI.third_elevator.direction = "up"
             print(f"internal request for floor {int(message)} in Elevator {int(elevator)}")
