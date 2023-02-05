@@ -71,8 +71,9 @@ class Elevator:
         seek_sequence = []
 
         for i in range(size):
-            if self.array[i] < self.head:
-                self.down.append(self.array[i])
+           
+        if self.array[i] < self.head:
+                self.down.append  (self.array[i])
             if self.array[i] > self.head:
                 self.up.append(self.array[i])
 
